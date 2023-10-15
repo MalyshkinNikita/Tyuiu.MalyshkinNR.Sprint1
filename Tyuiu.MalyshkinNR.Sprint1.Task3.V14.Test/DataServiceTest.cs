@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using Tyuiu.MalyshkinNR.Sprint1.Task3.V14.Lib;
 
 namespace Tyuiu.MalyshkinNR.Sprint1.Task3.V14.Test
 {
@@ -7,8 +8,12 @@ namespace Tyuiu.MalyshkinNR.Sprint1.Task3.V14.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
+            DataService ds = new DataService();
+            double x = 132;
+            var res = ds.ReverseNumber(x);
+            Assert.AreEqual(231, res);
         }
     }
 }

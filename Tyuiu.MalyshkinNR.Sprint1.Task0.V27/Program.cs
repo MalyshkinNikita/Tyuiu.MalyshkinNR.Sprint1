@@ -19,7 +19,7 @@ namespace Tyuiu.MalyshkinNR.Sprint1.Task0.V27
             Console.WriteLine("* Тема: Создания итогового решения по спринту                              *");
             Console.WriteLine("* Задания #0                                                               *");
             Console.WriteLine("* Вариант #27                                                              *");
-            Console.WriteLine("* Выполнил: Галеев Тимур Серикович | ПКТБ-23-2                             *");
+            Console.WriteLine("* Выполнил: Малышкин Никита Русланович | ПКТБ-23-2                         *");
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                 *");
             Console.WriteLine("* Написать консольную программу, которая вычисляет выражение 5 * 2 + 4 * 3 *");
